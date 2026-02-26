@@ -1,0 +1,88 @@
+==================================
+
+PYTHON (Theo template bạn gửi)
+
+==================================
+
+Byte-compiled / optimized / DLL files
+
+pycache/
+*.py[codz]
+*$py.class
+
+Environments (Virtual Envs)
+
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+Unit test / coverage reports
+
+.pytest_cache/
+htmlcov/
+.coverage*
+
+Jupyter Notebook
+
+.ipynb_checkpoints
+
+==================================
+
+TERRAFORM (Tối ưu hóa theo yêu cầu)
+
+==================================
+
+[QUAN TRỌNG] Bỏ qua thư mục .terraform ở BẤT KỲ ĐÂU
+
+**/.terraform/
+
+Bỏ qua các file state và backup (CHỨA BÍ MẬT)
+
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+
+Bỏ qua file Lock (Chứa hash của nhà cung cấp)
+
+.terraform.lock.hcl
+
+Crash log files
+
+crash.log
+crash.*.log
+
+CLI configuration files
+
+.terraformrc
+terraform.rc
+
+==================================
+
+IDEs & HỆ ĐIỀU HÀNH
+
+==================================
+
+VS Code
+
+.vscode/
+
+PyCharm / JetBrains
+
+.idea/
+
+File hệ thống
+
+.DS_Store
+Thumbs.db
+
+AWS Credentials (NGUY HIỂM)
+
+.aws/
+aws_credentials
+aws_config
